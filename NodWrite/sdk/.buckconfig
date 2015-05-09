@@ -1,0 +1,14 @@
+[alias]
+    example = //apps/OpenSpatialExample:OpenSpatialExample
+    openspatial = //src/net/openspatial:OpenSpatialSDK
+    unityplugin = //src/com/nod_labs/unityplugin:UnityOpenSpatialPlugin
+
+[java]
+    src_roots = /src, /tests
+
+[project]
+    # IntelliJ requires that every Android module have an
+    # AndroidManifest.xml file associated with it. In practice,
+    # most of this is unnecessary boilerplate, so we create one
+    # "shared" AndroidManifest.xml file that can be used as a default.
+    default_android_manifest = //res/AndroidManifest.xml

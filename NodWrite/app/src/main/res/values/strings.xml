@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NodWrite</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="instructions">Instructions</string>
+    <string name="instruction1">1. Find a flat surface</string>
+    <string name="instruction2">2. Write your text in handwriting</string>
+    <string name="instruction3">3. Watch the magic as it translates it into text</string>
+    <string name="title_activity_transition">Transition</string>
+    <string name="loading">Loading...</string>
+
+</resources>

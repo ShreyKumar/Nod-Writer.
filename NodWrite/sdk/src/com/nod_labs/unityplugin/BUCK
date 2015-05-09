@@ -1,0 +1,18 @@
+android_library(
+  name = 'UnityOpenSpatialPlugin',
+  srcs = glob(['*.java']),
+  source = '6',
+  target = '6',
+  deps = [
+    '//release:OpenSpatialSDK',
+    '//thirdparty:unity',
+    '//thirdparty:guava',
+  ],
+  visibility = [
+    'PUBLIC',
+  ],
+)
+
+project_config(
+  src_target = ':UnityOpenSpatialPlugin',
+)
